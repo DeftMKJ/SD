@@ -1,0 +1,6 @@
+platform:ios,'7.0'
+target '变异版本的SDScrollView' do
+pod 'SDCycleScrollView'
+pod 'Toast'
+pod 'Masonry'
+end

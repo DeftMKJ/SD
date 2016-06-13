@@ -1,0 +1,607 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4D5EBE5CF06C5AA43CD38B8E /* libPods-变异版本的SDScrollView.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8967BB164FD97745CE2C2D36 /* libPods-变异版本的SDScrollView.a */; };
+		696BAC671D02C5D3000A3267 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 696BAC661D02C5D3000A3267 /* main.m */; };
+		696BAC6A1D02C5D3000A3267 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 696BAC691D02C5D3000A3267 /* AppDelegate.m */; };
+		696BAC6D1D02C5D3000A3267 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 696BAC6C1D02C5D3000A3267 /* ViewController.m */; };
+		696BAC701D02C5D3000A3267 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 696BAC6E1D02C5D3000A3267 /* Main.storyboard */; };
+		696BAC721D02C5D3000A3267 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 696BAC711D02C5D3000A3267 /* Assets.xcassets */; };
+		696BAC751D02C5D3000A3267 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 696BAC731D02C5D3000A3267 /* LaunchScreen.storyboard */; };
+		696BAC801D02C5D3000A3267 /* _____SDScrollViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 696BAC7F1D02C5D3000A3267 /* _____SDScrollViewTests.m */; };
+		696BAC8B1D02C5D4000A3267 /* _____SDScrollViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 696BAC8A1D02C5D4000A3267 /* _____SDScrollViewUITests.m */; };
+		696BAC9A1D02CEAD000A3267 /* UIImage+ImageCompress.m in Sources */ = {isa = PBXBuildFile; fileRef = 696BAC991D02CEAD000A3267 /* UIImage+ImageCompress.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		696BAC7C1D02C5D3000A3267 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 696BAC5A1D02C5D2000A3267 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 696BAC611D02C5D2000A3267;
+			remoteInfo = "变异版本的SDScrollView";
+		};
+		696BAC871D02C5D4000A3267 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 696BAC5A1D02C5D2000A3267 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 696BAC611D02C5D2000A3267;
+			remoteInfo = "变异版本的SDScrollView";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		696BAC621D02C5D2000A3267 /* 变异版本的SDScrollView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "变异版本的SDScrollView.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		696BAC661D02C5D3000A3267 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		696BAC681D02C5D3000A3267 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		696BAC691D02C5D3000A3267 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		696BAC6B1D02C5D3000A3267 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		696BAC6C1D02C5D3000A3267 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		696BAC6F1D02C5D3000A3267 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		696BAC711D02C5D3000A3267 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		696BAC741D02C5D3000A3267 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		696BAC761D02C5D3000A3267 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		696BAC7B1D02C5D3000A3267 /* 变异版本的SDScrollViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "变异版本的SDScrollViewTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		696BAC7F1D02C5D3000A3267 /* _____SDScrollViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "_____SDScrollViewTests.m"; sourceTree = "<group>"; };
+		696BAC811D02C5D4000A3267 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		696BAC861D02C5D4000A3267 /* 变异版本的SDScrollViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "变异版本的SDScrollViewUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		696BAC8A1D02C5D4000A3267 /* _____SDScrollViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "_____SDScrollViewUITests.m"; sourceTree = "<group>"; };
+		696BAC8C1D02C5D4000A3267 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		696BAC981D02CEAD000A3267 /* UIImage+ImageCompress.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+ImageCompress.h"; sourceTree = "<group>"; };
+		696BAC991D02CEAD000A3267 /* UIImage+ImageCompress.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+ImageCompress.m"; sourceTree = "<group>"; };
+		850459E488D5DD5F514D623F /* Pods-变异版本的SDScrollView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-变异版本的SDScrollView.release.xcconfig"; path = "Pods/Target Support Files/Pods-变异版本的SDScrollView/Pods-变异版本的SDScrollView.release.xcconfig"; sourceTree = "<group>"; };
+		8967BB164FD97745CE2C2D36 /* libPods-变异版本的SDScrollView.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-变异版本的SDScrollView.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DDD934D28B566AD8EC60167B /* Pods-变异版本的SDScrollView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-变异版本的SDScrollView.debug.xcconfig"; path = "Pods/Target Support Files/Pods-变异版本的SDScrollView/Pods-变异版本的SDScrollView.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		696BAC5F1D02C5D2000A3267 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D5EBE5CF06C5AA43CD38B8E /* libPods-变异版本的SDScrollView.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		696BAC781D02C5D3000A3267 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		696BAC831D02C5D4000A3267 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		696BAC591D02C5D2000A3267 = {
+			isa = PBXGroup;
+			children = (
+				696BAC641D02C5D2000A3267 /* 变异版本的SDScrollView */,
+				696BAC7E1D02C5D3000A3267 /* 变异版本的SDScrollViewTests */,
+				696BAC891D02C5D4000A3267 /* 变异版本的SDScrollViewUITests */,
+				696BAC631D02C5D2000A3267 /* Products */,
+				95FE71C927AE811335D02771 /* Pods */,
+				B5A902EB5E88FFF5FE714D1D /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		696BAC631D02C5D2000A3267 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				696BAC621D02C5D2000A3267 /* 变异版本的SDScrollView.app */,
+				696BAC7B1D02C5D3000A3267 /* 变异版本的SDScrollViewTests.xctest */,
+				696BAC861D02C5D4000A3267 /* 变异版本的SDScrollViewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		696BAC641D02C5D2000A3267 /* 变异版本的SDScrollView */ = {
+			isa = PBXGroup;
+			children = (
+				696BAC981D02CEAD000A3267 /* UIImage+ImageCompress.h */,
+				696BAC991D02CEAD000A3267 /* UIImage+ImageCompress.m */,
+				696BAC681D02C5D3000A3267 /* AppDelegate.h */,
+				696BAC691D02C5D3000A3267 /* AppDelegate.m */,
+				696BAC6B1D02C5D3000A3267 /* ViewController.h */,
+				696BAC6C1D02C5D3000A3267 /* ViewController.m */,
+				696BAC6E1D02C5D3000A3267 /* Main.storyboard */,
+				696BAC711D02C5D3000A3267 /* Assets.xcassets */,
+				696BAC731D02C5D3000A3267 /* LaunchScreen.storyboard */,
+				696BAC761D02C5D3000A3267 /* Info.plist */,
+				696BAC651D02C5D3000A3267 /* Supporting Files */,
+			);
+			path = "变异版本的SDScrollView";
+			sourceTree = "<group>";
+		};
+		696BAC651D02C5D3000A3267 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				696BAC661D02C5D3000A3267 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		696BAC7E1D02C5D3000A3267 /* 变异版本的SDScrollViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				696BAC7F1D02C5D3000A3267 /* _____SDScrollViewTests.m */,
+				696BAC811D02C5D4000A3267 /* Info.plist */,
+			);
+			path = "变异版本的SDScrollViewTests";
+			sourceTree = "<group>";
+		};
+		696BAC891D02C5D4000A3267 /* 变异版本的SDScrollViewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				696BAC8A1D02C5D4000A3267 /* _____SDScrollViewUITests.m */,
+				696BAC8C1D02C5D4000A3267 /* Info.plist */,
+			);
+			path = "变异版本的SDScrollViewUITests";
+			sourceTree = "<group>";
+		};
+		95FE71C927AE811335D02771 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DDD934D28B566AD8EC60167B /* Pods-变异版本的SDScrollView.debug.xcconfig */,
+				850459E488D5DD5F514D623F /* Pods-变异版本的SDScrollView.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		B5A902EB5E88FFF5FE714D1D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8967BB164FD97745CE2C2D36 /* libPods-变异版本的SDScrollView.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		696BAC611D02C5D2000A3267 /* 变异版本的SDScrollView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 696BAC8F1D02C5D4000A3267 /* Build configuration list for PBXNativeTarget "变异版本的SDScrollView" */;
+			buildPhases = (
+				2F8CEB1F59FBFD2B882392D2 /* 📦 Check Pods Manifest.lock */,
+				696BAC5E1D02C5D2000A3267 /* Sources */,
+				696BAC5F1D02C5D2000A3267 /* Frameworks */,
+				696BAC601D02C5D2000A3267 /* Resources */,
+				020673DE34EB49AEABED1DC9 /* 📦 Embed Pods Frameworks */,
+				71CEF793634405BA8915661E /* 📦 Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "变异版本的SDScrollView";
+			productName = "变异版本的SDScrollView";
+			productReference = 696BAC621D02C5D2000A3267 /* 变异版本的SDScrollView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		696BAC7A1D02C5D3000A3267 /* 变异版本的SDScrollViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 696BAC921D02C5D4000A3267 /* Build configuration list for PBXNativeTarget "变异版本的SDScrollViewTests" */;
+			buildPhases = (
+				696BAC771D02C5D3000A3267 /* Sources */,
+				696BAC781D02C5D3000A3267 /* Frameworks */,
+				696BAC791D02C5D3000A3267 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				696BAC7D1D02C5D3000A3267 /* PBXTargetDependency */,
+			);
+			name = "变异版本的SDScrollViewTests";
+			productName = "变异版本的SDScrollViewTests";
+			productReference = 696BAC7B1D02C5D3000A3267 /* 变异版本的SDScrollViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		696BAC851D02C5D4000A3267 /* 变异版本的SDScrollViewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 696BAC951D02C5D4000A3267 /* Build configuration list for PBXNativeTarget "变异版本的SDScrollViewUITests" */;
+			buildPhases = (
+				696BAC821D02C5D4000A3267 /* Sources */,
+				696BAC831D02C5D4000A3267 /* Frameworks */,
+				696BAC841D02C5D4000A3267 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				696BAC881D02C5D4000A3267 /* PBXTargetDependency */,
+			);
+			name = "变异版本的SDScrollViewUITests";
+			productName = "变异版本的SDScrollViewUITests";
+			productReference = 696BAC861D02C5D4000A3267 /* 变异版本的SDScrollViewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		696BAC5A1D02C5D2000A3267 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "宓珂璟";
+				TargetAttributes = {
+					696BAC611D02C5D2000A3267 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					696BAC7A1D02C5D3000A3267 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 696BAC611D02C5D2000A3267;
+					};
+					696BAC851D02C5D4000A3267 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 696BAC611D02C5D2000A3267;
+					};
+				};
+			};
+			buildConfigurationList = 696BAC5D1D02C5D2000A3267 /* Build configuration list for PBXProject "变异版本的SDScrollView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 696BAC591D02C5D2000A3267;
+			productRefGroup = 696BAC631D02C5D2000A3267 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				696BAC611D02C5D2000A3267 /* 变异版本的SDScrollView */,
+				696BAC7A1D02C5D3000A3267 /* 变异版本的SDScrollViewTests */,
+				696BAC851D02C5D4000A3267 /* 变异版本的SDScrollViewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		696BAC601D02C5D2000A3267 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				696BAC751D02C5D3000A3267 /* LaunchScreen.storyboard in Resources */,
+				696BAC721D02C5D3000A3267 /* Assets.xcassets in Resources */,
+				696BAC701D02C5D3000A3267 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		696BAC791D02C5D3000A3267 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		696BAC841D02C5D4000A3267 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		020673DE34EB49AEABED1DC9 /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-变异版本的SDScrollView/Pods-变异版本的SDScrollView-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2F8CEB1F59FBFD2B882392D2 /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		71CEF793634405BA8915661E /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-变异版本的SDScrollView/Pods-变异版本的SDScrollView-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		696BAC5E1D02C5D2000A3267 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				696BAC6D1D02C5D3000A3267 /* ViewController.m in Sources */,
+				696BAC9A1D02CEAD000A3267 /* UIImage+ImageCompress.m in Sources */,
+				696BAC6A1D02C5D3000A3267 /* AppDelegate.m in Sources */,
+				696BAC671D02C5D3000A3267 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		696BAC771D02C5D3000A3267 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				696BAC801D02C5D3000A3267 /* _____SDScrollViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		696BAC821D02C5D4000A3267 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				696BAC8B1D02C5D4000A3267 /* _____SDScrollViewUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		696BAC7D1D02C5D3000A3267 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 696BAC611D02C5D2000A3267 /* 变异版本的SDScrollView */;
+			targetProxy = 696BAC7C1D02C5D3000A3267 /* PBXContainerItemProxy */;
+		};
+		696BAC881D02C5D4000A3267 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 696BAC611D02C5D2000A3267 /* 变异版本的SDScrollView */;
+			targetProxy = 696BAC871D02C5D4000A3267 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		696BAC6E1D02C5D3000A3267 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				696BAC6F1D02C5D3000A3267 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		696BAC731D02C5D3000A3267 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				696BAC741D02C5D3000A3267 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		696BAC8D1D02C5D4000A3267 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		696BAC8E1D02C5D4000A3267 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		696BAC901D02C5D4000A3267 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DDD934D28B566AD8EC60167B /* Pods-变异版本的SDScrollView.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "变异版本的SDScrollView/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.iwala.-----SDScrollView";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		696BAC911D02C5D4000A3267 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 850459E488D5DD5F514D623F /* Pods-变异版本的SDScrollView.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "变异版本的SDScrollView/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.iwala.-----SDScrollView";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		696BAC931D02C5D4000A3267 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "变异版本的SDScrollViewTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.iwala.-----SDScrollViewTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/变异版本的SDScrollView.app/变异版本的SDScrollView";
+			};
+			name = Debug;
+		};
+		696BAC941D02C5D4000A3267 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "变异版本的SDScrollViewTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.iwala.-----SDScrollViewTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/变异版本的SDScrollView.app/变异版本的SDScrollView";
+			};
+			name = Release;
+		};
+		696BAC961D02C5D4000A3267 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "变异版本的SDScrollViewUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.iwala.-----SDScrollViewUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "变异版本的SDScrollView";
+			};
+			name = Debug;
+		};
+		696BAC971D02C5D4000A3267 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "变异版本的SDScrollViewUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.iwala.-----SDScrollViewUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "变异版本的SDScrollView";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		696BAC5D1D02C5D2000A3267 /* Build configuration list for PBXProject "变异版本的SDScrollView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				696BAC8D1D02C5D4000A3267 /* Debug */,
+				696BAC8E1D02C5D4000A3267 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		696BAC8F1D02C5D4000A3267 /* Build configuration list for PBXNativeTarget "变异版本的SDScrollView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				696BAC901D02C5D4000A3267 /* Debug */,
+				696BAC911D02C5D4000A3267 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		696BAC921D02C5D4000A3267 /* Build configuration list for PBXNativeTarget "变异版本的SDScrollViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				696BAC931D02C5D4000A3267 /* Debug */,
+				696BAC941D02C5D4000A3267 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		696BAC951D02C5D4000A3267 /* Build configuration list for PBXNativeTarget "变异版本的SDScrollViewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				696BAC961D02C5D4000A3267 /* Debug */,
+				696BAC971D02C5D4000A3267 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 696BAC5A1D02C5D2000A3267 /* Project object */;
+}
