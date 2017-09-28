@@ -9,9 +9,11 @@
 #import "ViewController.h"
 #import <SDCycleScrollView.h>
 #import "UIImage+ImageCompress.h"
-@interface ViewController () <UITableViewDelegate,UITableViewDataSource,SDCycleScrollViewDelegate>
+#import <Masonry.h>
+@interface ViewController () <UITableViewDelegate,UITableViewDataSource,SDCycleScrollViewDelegate,UIScrollViewDelegate>
 @property (weak, nonatomic) IBOutlet UITableView *tableView;
 @property (nonatomic,strong) SDCycleScrollView *bannerView;
+@property (nonatomic,strong) UIView *containerBackView;
 
 
 @end
@@ -30,11 +32,14 @@
                         @"http://twt.img.iwala.net/upload/93f0689ec10d5033.jpg"];
     [self.tableView registerClass:[UITableViewCell class] forCellReuseIdentifier:@"cell"];
     self.tableView.rowHeight = 66;
+    self.tableView.delegate = self;
     
     UIView *headBackView = [[UIView alloc] initWithFrame:CGRectMake(0, 0, 375, 150)];
     self.tableView.tableHeaderView = headBackView;
+    self.containerBackView = headBackView;
     
-    self.bannerView = [SDCycleScrollView cycleScrollViewWithFrame:CGRectMake(0, 0, 375, 203) delegate:self placeholderImage:nil];
+    self.bannerView = [SDCycleScrollView cycleScrollViewWithFrame:CGRectZero delegate:self placeholderImage:nil];
+    self.bannerView.bannerImageViewContentMode = UIViewContentModeScaleAspectFill;
     // 一个Category给用颜色做ImageView 用15宽2高做一个长方形图片 当前图片
     self.bannerView.currentPageDotImage = [UIImage imageWithColor:[UIColor redColor] forSize:CGSizeMake(15, 2)];
     // 同上做一个 其他图片
@@ -54,6 +59,9 @@
     // 滚动方向 默认水平
     //self.bannerView.scrollDirection = UICollectionViewScrollDirectionVertical;
     [headBackView addSubview:self.bannerView];
+    [self.bannerView mas_makeConstraints:^(MASConstraintMaker *make) {
+        make.edges.equalTo(headBackView);
+    }];
     
     // 网络加载 --- 创建带标题的图片轮播器
     SDCycleScrollView *cycleScrollView2 = [SDCycleScrollView cycleScrollViewWithFrame:CGRectMake(0, 300, 375, 100) delegate:self placeholderImage:[UIImage imageNamed:@"placeholder"]];
@@ -96,6 +104,17 @@
     cell.textLabel.text = @"MKJ";
     cell.detailTextLabel.text = @"一周可以突破10000";
     return cell;
+}
+
+- (void)scrollViewDidScroll:(UIScrollView *)scrollView
+{
+    CGFloat offsetY = scrollView.contentOffset.y;
+    if (offsetY >=0) {
+        offsetY = 0;
+    }
+    [self.bannerView mas_updateConstraints:^(MASConstraintMaker *make) {
+        make.top.equalTo(self.containerBackView).with.offset(offsetY);
+    }];
 }
 
 - (void)didReceiveMemoryWarning {
